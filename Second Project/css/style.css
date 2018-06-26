@@ -1,0 +1,229 @@
+@font-face{
+	font-family: Segoe WP Light;
+	src: url(fonts/Segoe WP Light.ttf);
+}
+
+.wrapper{
+	max-width: 1200px;
+	width: 100%;
+	padding:0 40px;
+	margin: 0 auto;
+}
+hr{
+	height: 1px;
+	
+
+}
+.header-wrap{
+	height: 119px;
+		display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.menu{
+	list-style: none;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.menu__item{
+	margin-left: 90px;
+	position: static;
+}
+.menu__link{
+	padding: 5px 10px;
+	color: #323332;
+	font-size: 23px;
+	font-weight: 300;
+	line-height: 23px;
+	text-decoration: none;
+	font-family: 'Segeo WP Light',sans-serif;
+	transition: 1s;
+}
+.menu__link:hover{
+	background: #0d0d0d;
+	color: #fff;
+
+}
+.banner .wrapper{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.banner__item h2,h3{
+	color: #5d5d5d;
+	font-family: "Segoe WP Light";
+}
+.banner__item h2{
+	font-size: 61px;
+	font-weight: 300;
+	line-height: 58.86px;
+}
+.banner__item h3{
+	font-size: 47px;
+}
+.banner__item__icon{
+	margin-top: 29px;
+	height: 39px;
+	width: 204px;
+	background-color: #373737;
+	color: #ffffff;
+	font-family: "Segoe WPN";
+	font-size: 23px;
+	font-weight: 400;
+	line-height: 23px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.fa-video-camera{
+	margin-right: 11px;
+}
+.arcticle .wrapper{
+	display: flex;
+}
+.article-left__item{
+	flex:2; 
+}
+.article-right__item{
+	flex: 1;
+}
+.main-article{
+	display: flex;
+	margin-bottom: 42px;
+}
+.main-article h5,.other-articles h5{
+	color: #696161;
+	font-family: "Segoe WP";
+	font-size: 30px;
+	font-weight: 300;
+	line-height: 37px;
+	display: block;
+	-ms-text-align-last: left;
+	text-align: left;
+}
+.article-left__item p,.other-articles p{
+	color: #696161;
+	font-family: "Segoe WP";
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 20px;
+	display: block;
+}
+.main-article__text{
+	margin: 0 46px 0 27px;
+}
+.other-articles{
+	display: flex;
+	flex-wrap: wrap;
+}
+.other-articles article{
+	width: 33%;
+	margin-bottom: 51px;
+}
+.other-articles h5{
+	margin-bottom: 9px;
+}
+.other-articles p.date{
+	margin-bottom: 16px;
+}
+.img__button{
+	position: relative;
+}
+.img__button a{
+	width: 143px;
+	height: 17px;
+	color: #ffffff;
+	font-family: "Optima LT";
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 24.44px;
+	text-transform: uppercase;
+	position: absolute;
+	background: #58d1dc;
+	left: 85px;
+	bottom: 12px;
+	border-radius: 15px;
+	padding: 3px 5px 10px 5px;
+	text-decoration: none;
+	-ms-text-align-last: center;
+	text-align-last: center;
+}
+.form{
+	margin-top: 25px;
+	width: 319px;
+	height: 265px;
+	background-color: #393a39;
+	border-bottom: 7px solid #bb4465;
+}
+.form h5{
+	padding-top: 24px;
+	padding-bottom: 17px;
+	text-align: center;
+	color: #ffffff;
+	font-family: "Segoe WP";
+	font-size: 27px;
+	font-weight: 300;
+	line-height: 27px;
+	text-transform: uppercase;
+}
+.form p{
+	text-align: center;
+	color: #ffffff;
+	font-family: "Segoe WP";
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 20px;
+	margin-bottom: 15px;
+}
+form input{
+	height: 26px;
+	width: 257px;
+	margin-bottom: 12px;
+	margin-left: 30px;
+}
+form button{
+	margin-left: 70px;
+	width: 179px;
+	height: 33px;
+	background-color: #bb4465;
+	border-radius: 15px;
+	border:none;
+	color: #ffffff;
+	font-family: "Optima LT";
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 24.44px;
+	text-transform: uppercase;
+}
+footer p{
+	padding-top:  29px;
+	color: #ffffff;
+	font-family: "Segoe WP";
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 20px;
+	text-align: center;
+}
+.footer{
+	width: 100%;
+	position:relative;
+	height: 86px;
+	background-color: #393a39;
+}
+.social{
+	position: absolute;
+	right: 60px;
+	bottom: 25px;
+}
+.fa-facebook-official,.fa-twitter,.fa-youtube{
+	color: #fff;
+	margin-right: 16px;
+	font-size: 37px!important;
+}
